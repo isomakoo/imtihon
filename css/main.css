@@ -180,6 +180,12 @@ a {
         height: 1100px;
         justify-content: space-around;
     }
+    .hero-icons{
+        display:  none;
+    }
+    .header-hero-imgg{
+        width: 180px;
+    }
     .header-main-img{
         width: 250px;
         height: 100px;
@@ -635,4 +641,139 @@ a {
         font-family: 'Manrope';
         background-color: #dfba00;
         padding: 4px 25px;
+    }
+    .foother{
+        position: relative;
+        top: 1200px;
+        width: 100%;
+        margin: 0;padding: 0;
+        height: 1600px;
+    }
+    .foother-container{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .foother-item-zero{
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+    }
+    .foother-link{
+        padding-top: 10px;
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+        transition: color .2s
+    }
+    .foother-list-text{
+        font-family: 'Manrope';
+        font-weight: 400;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        width: 280px;
+        font-size: 16px;
+        line-height: 25px;
+        color: #FFFFFF;
+        transition: color .2s
+    }
+    .foother-hero-title, .foother-item-list-title{
+        font-family: 'Manrope';
+        font-weight: 500;
+        width: 280px;
+        font-size: 24px;
+        line-height: 25px;
+        color: #FFFFFF;
+        transition: color .2s 
+    }
+    .foother-hero-link{
+        font-family: 'Manrope';
+        font-weight: 400;
+        width: 280px;
+        font-size: 14px;
+        line-height: 25px;
+        color: #FFFFFF;
+        transition: color .2s 
+    }
+    .foother-hero-text{
+        font-family: 'Manrope';
+        font-weight: 400;
+        width: 280px;
+        font-size: 16px;
+        line-height: 25px;
+        color: #e2e2e2;
+        transition: color 2s 
+    }
+    .foother-item-text{
+        font-family: 'Manrope';
+        font-weight: 400;
+        width: 250px;
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 25px;
+        color: #e2e2e2;
+        transition: color 2s 
+    }
+    @media (max-width: 1100px) {
+        .container{
+           width: 1000px;
+        };
+    }
+    @media (max-width: 1000px) {
+        .container{
+           width: 900px;
+        };
+        .header-navbar-list{
+            width: 400px;
+        }
+        .header-button{
+            line-height: 18px;
+            font: size 14px;;
+        }
+        .header-link{
+            font-size: 16px;
+        }
+    }
+    @media (max-width: 900px) {
+        .container{
+           width: 800px;
+        };
+    }
+    @media (max-width: 800px) {
+        .container{
+           width: 700px;
+        };
+        .header-button{
+            display: none;
+        }
+        .hero-icons{
+            display: block;
+        }
+    }
+    @media (max-width: 700px) {
+        .container{
+           width: 600px;
+        };
+    }
+    @media (max-width: 600px) {
+        .container{
+           width: 500px;
+        };
+    }
+    @media (max-width: 500px) {
+        .container{
+           width: 400px;
+        };
+    }
+    @media (max-width: 400px) {
+        .container{
+           width: 300px;
+        };
+    }
+    @media (max-width: 300px) {
+        .container{
+           width: 100%;
+        };
     }
